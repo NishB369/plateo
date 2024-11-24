@@ -27,7 +27,7 @@ body, html{
         height: 100%;
         width: 100%;
         background-color: #233dff;
-        background-image: url(/public/media/images/GridlinesBg.png);
+        background-image: url(./GridlinesBg.png);
         background-position: center;
         background-size: cover;
         position: relative;
@@ -250,13 +250,14 @@ body, html{
     }
 
     #nav-bar-bottom-center-btn{
-        width: 20%;
+        /* width: 20%; */
         background-color: white;
-        border-radius: 100%;
-        height: 120%;
+        border-radius: 50%;
+        /* height: 100%; */
         align-self: flex-end;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.338);
         margin-bottom: 1%;
+        padding: 10%;
         scale: 1.1;
     }
 
