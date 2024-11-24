@@ -17,6 +17,7 @@ domReady(function () {
     function onScanSuccess(decodeText, decodeResult) {
         alert("You Qr is : " + decodeText, decodeResult);
         window.location.href = decodeText
+        htmlscanner.clear();
     }
 
     let htmlscanner = new Html5QrcodeScanner(
